@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogEdit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#59c489"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textviewThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Edit Student"
+        android:textColor="#ff00"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtSuaSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewThem"
+        android:layout_marginTop="10dp"
+        android:hint="Name"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtGendetSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtSuaSV"
+        android:layout_marginTop="10dp"
+        android:hint="Gender"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtDOBSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtGendetSV"
+        android:layout_marginTop="10dp"
+        android:hint="DOB"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnXacNhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtDOBSV"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/btnHuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtDOBSV"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/btnXacNhan"
+        android:text="Cancle" />
+
+</RelativeLayout>

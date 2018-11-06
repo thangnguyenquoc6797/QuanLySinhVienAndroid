@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#56c688"
+    android:weightSum="10"
+    android:padding="5dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_weight="8.5"
+        android:textColor="#3041a9"
+        android:textSize="22sp"
+        android:text="Tên sinh vien"
+        android:id="@+id/textviewTenSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_weight="0.5"
+        android:id="@+id/imgEdit"
+        android:src="@drawable/edit"
+        android:layout_width="50px"
+        android:layout_height="30dp" />
+
+    <ImageView
+        android:layout_weight="0.5"
+        android:id="@+id/imgDelete"
+        android:src="@drawable/delete"
+        android:layout_width="50px"
+        android:layout_height="30dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:paddingTop="10dp" />
+
+
+</LinearLayout>
